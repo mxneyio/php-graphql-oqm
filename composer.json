@@ -1,5 +1,5 @@
 {
-    "name": "gmostafa/php-graphql-oqm",
+    "name": "mxneyio/php-graphql-oqm",
     "description": "GraphQL Object-to-Query Mapper (QOM) which generates objects from API schema",
     "type": "library",
     "license": "MIT",
@@ -17,8 +17,8 @@
     ],
     "authors": [
         {
-            "name": "Mostafa Ghoneimy",
-            "email": "emostafagh@gmail.com"
+            "name": "Michael Lundbøl",
+            "email": "miclun@mxney.io"
         }
     ],
     "autoload": {
@@ -35,7 +35,7 @@
     "bin": ["bin/generate_schema_objects"],
     "require": {
         "php": "^7.1 || ^8.0",
-        "gmostafa/php-graphql-client": "^1.12"
+        "mxneyio/php-graphql-client": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.5|^8.0",
